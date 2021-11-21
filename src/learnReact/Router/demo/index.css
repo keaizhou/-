@@ -1,0 +1,53 @@
+.wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.header {
+  height: 60px;
+  width: 100%;
+  background: #000;
+  color: white;
+  line-height: 60px;
+  padding-left: 24px;
+}
+.middle {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+}
+.aside {
+  position: absolute;
+  width: 200px;
+  background-color: rgb(49, 84, 124);
+  height: 100%;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  padding: 12px 24px;
+}
+.main {
+  position: absolute;
+  left: 260px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+li {
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+}
+li :hover {
+  background-color: aliceblue;
+  color: black;
+}
+li a {
+  color: aliceblue;
+  text-decoration: none;
+}
