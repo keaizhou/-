@@ -1,7 +1,6 @@
 {
-  "name": "keaizhoutest",
+  "name": "keaizhou_test",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@formily/antd": "^2.0.0-rc.4",
     "@testing-library/jest-dom": "^5.11.4",
@@ -44,6 +43,14 @@
   "keywords": [
     "keaizhou"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "keaizhou",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keaizhou/-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keaizhou/-/issues"
+  },
+  "homepage": "https://github.com/keaizhou/-#readme"
 }
