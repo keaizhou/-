@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import Route from "../src/learnReact/Router"
 import reportWebVitals from './reportWebVitals';
-import FormilyL from "../src/Formily/index"
+import Array from "../src/learnJs/Array"
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Route/> */}
-    {/* <App /> */}
-    <FormilyL></FormilyL>
+    <Array />
   </React.StrictMode>,
   document.getElementById('root')
 );
