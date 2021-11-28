@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Array from "../src/learnJs/Array"
-
+import ImperativeHandle from "./learnReact/ImperativeHandle"
 ReactDOM.render(
   <React.StrictMode>
-    <Array />
+    <ImperativeHandle />
   </React.StrictMode>,
   document.getElementById('root')
 );
